@@ -13,7 +13,9 @@ Enquiries about the pipeline should be asked on the discussion page of the GitHu
   - Image_Character.mlx &rarr; calculates the RMS contrast (the higher the value, the higher the contrast is in the image) and Laplacian Variance of an image (the higher the value, the sharper is the image). Be careful as there is no set definitive value for a high contrast or high sharpness image. These metrics are used to compare image quality within the same dataset.
   - Segm_Metrics.mlx &rarr; if a ground truth of an image is present, can be used to calculate the segmentation metrics: F1 score, Boundary F1 score, 95% Hausdorff Distance, ASSD.
   - Overlay.mlx &rarr; allows the user to overlay the segmentation mask over the original image (segmentation will be overlaid in red).
-- Sobel_Plus_Watershed.mlx is the main file of the repository, which contains the MATLAB code of the pipeline.
+- Dissertation report.pdf &rarr; contains the written up explanation of every step taken and the purpose of this work.
+- Segmentation results.pdf &rarr; is the appendix that goes together with the report and contains all the segmentation results achieved in this work. 
+- Sobel_Plus_Watershed.mlx &rarr; main file of the repository, which contains the MATLAB code of the pipeline.
 
 ## MATLAB toolboxes needed:
 - Image Processing Toolbox (v25.2)
