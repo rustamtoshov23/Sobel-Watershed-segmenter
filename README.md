@@ -14,7 +14,7 @@ Enquiries about the pipeline should be asked on the discussion page of the GitHu
   - Segm_Metrics.mlx &rarr; if a ground truth of an image is present, can be used to calculate the segmentation metrics: F1 score, Boundary F1 score, 95% Hausdorff Distance, ASSD.
   - Overlay.mlx &rarr; allows the user to overlay the segmentation mask over the original image (segmentation will be overlaid in red).
 - Dissertation report.pdf &rarr; contains the written up explanation of every step taken and the purpose of this work.
-- Segmentation results.pdf &rarr; is the appendix that goes together with the report and contains all the segmentation results achieved in this work. 
+- Segmentation results.pdf &rarr; is the appendix that goes together with the report and contains all the segmentation results achieved in this work (should be downloaded to see all the images).
 - Sobel_Plus_Watershed.mlx &rarr; main file of the repository, which contains the MATLAB code of the pipeline.
 
 ## MATLAB toolboxes needed:
